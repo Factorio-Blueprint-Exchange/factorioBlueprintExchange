@@ -1,0 +1,23 @@
+{
+  "name": "factorio-blueprint-exchange",
+  "version": "1.0.0",
+  "description": "A website for sharing blueprints",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "fs": "0.0.1-security",
+    "mkdirp": "^0.5.1",
+    "nedb": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "factorio"
+  ],
+  "author": "Daniel, Mark and Lauren",
+  "license": "ISC"
+}
